@@ -1,0 +1,150 @@
+body {
+	background: #FFF;
+}
+.MyText{
+	font-size: 1em;
+	text-align: left;
+	color: #EEE;
+}
+
+#output
+{
+	float: left;
+	// width: 1240px;
+	margin: 0 0 0 0px;
+	background: #FFF;
+}
+
+#output {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#output td, output th {
+    font-size: 1em;
+    border: 1px solid #EEE;
+    padding: 0px 0px 0px 0px;
+}
+
+#output th {
+    font-size: 1em;
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #FFF;
+    color: #EEE;
+}
+
+#output tr.alt td {
+    color: #EEE;
+    background-color: #FFF;
+}
+
+@media only screen and (min-width: 1560px) { 
+	#output { width: 1560px; }
+	
+	.MyText{
+	font-size: 36px;
+	text-align: left;
+     color: #EEE;
+	}
+}
+
+@media screen and (max-width:999px)
+{
+	#output { width: 999px; }
+	
+	.MyText{
+	font-size: 26px;
+	text-align: left;
+     color: #EEE;
+	}
+}	
+		
+@media only screen and (max-width: 768px) {
+	#output { width: 768px; }
+	
+	.MyText{
+	font-size: 18px;
+	text-align: left;
+     color: #EEE;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	#output { width: 600px; }
+	
+	.MyText{
+	font-size: 12px;
+	text-align: left;
+     color: #EEE;
+	}
+}
+
+@media screen and (max-width:480px) 
+{
+	#container { width: 480px; }
+
+	#output
+	{
+		float: none;
+		width: auto;
+	}
+	.MyText{
+	font-size: 8px;
+	text-align: left;
+     color: #EEE;
+	}
+        #output td, output th {
+        font-size: 1em;
+        border: 1px solid #EEE;
+        padding: 0px 0px 0px 0px;
+    }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+{
+    	#container { width: 568px; }
+
+	#output
+	{
+		float: none;
+		width: auto;
+	}
+	.MyText{
+	font-size: 8px;
+	text-align: left;
+     color: #EEE;
+	}
+        #output td, output th {
+        font-size: 1em;
+        border: 1px solid #EEE;
+        padding: 0px 0px 0px 0px;
+    }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) 
+{
+    #container { width: 480px; }
+
+	#output
+	{
+		float: none;
+		width: auto;
+	}
+	.MyText{
+	font-size: 8px;
+	text-align: left;
+     color: #EEE;
+	}
+        #output td, output th {
+        font-size: 1em;
+        border: 1px solid #EEE;
+        padding: 0px 0px 0px 0px;
+    }
+}
